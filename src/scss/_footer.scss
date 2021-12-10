@@ -3,7 +3,7 @@
   padding: 50px 0 20px;
   color: #fff;
   .logo_footer {
-    margin-bottom: 45px;
+    margin-bottom: 46px;
     display: block;
     & img {
       width: 100%;
@@ -12,9 +12,13 @@
   }
   .footer__title {
     font-size: 18px;
-    font-weight: 700;
-    width: 200px;
+    font-family: 'Montserrat-Bold';
+    width: 210px;
+    &.footer__title_narrow {
+      width: 160px;
+    }
   }
+
   .menu {
     margin-bottom: 50px;
   }

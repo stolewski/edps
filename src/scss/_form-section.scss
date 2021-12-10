@@ -22,6 +22,9 @@
   .choice::-webkit-calendar-picker-indicator {
     display: none !important;
   }
+  .choice::-webkit-list-button {
+    display: none !important;
+  }
   .topic-wrap {
     position: relative;
     max-width: 443px;
