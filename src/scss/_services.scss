@@ -1,0 +1,75 @@
+.services {
+  padding-top: 83px;
+  .section-title {
+    margin-bottom: 57px;
+  }
+  .card {
+    border: 1px solid #b3a29a;
+    padding: 40px 38px 18px;
+    margin-bottom: 40px;
+    min-height: 360px;
+    height: auto;
+    span {
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #c39675;
+    }
+    .card__pic_individual::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/elderly.svg);
+      width: 45px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_rehab::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/hands.svg);
+      width: 66px;
+      height: 54px;
+      margin-left: 13px;
+    }
+    .card__pic_workshop::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/senior.svg);
+      width: 45px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_nature::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/flower.svg);
+      width: 45px;
+      height: 47px;
+      margin-left: 13px;
+    }
+    .card__pic_liturgia::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/church.svg);
+      width: 50px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_party::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/party.svg);
+      width: 57px;
+      height: 50px;
+      margin-left: 13px;
+    }
+
+    .card__title {
+      margin: 20px 0 11px;
+    }
+    .card__text {
+      font-size: 17px;
+    }
+  }
+}

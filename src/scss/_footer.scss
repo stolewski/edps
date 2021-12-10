@@ -1,0 +1,48 @@
+.footer {
+  background: #444;
+  padding: 50px 0 20px;
+  color: #fff;
+  .logo_footer {
+    margin-bottom: 45px;
+    display: block;
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .footer__title {
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+  }
+  .menu {
+    margin-bottom: 50px;
+  }
+  .menu li a {
+    font-weight: 400;
+    font-size: 17px;
+    color: #e5e5e5;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .copyright {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #e5e5e5;
+  }
+  .privacy {
+    font-size: 10px;
+    display: block;
+    margin-top: 20px;
+    color: #e5e5e5;
+  }
+  & hr {
+    height: 1px;
+    color: #fff;
+    opacity: 1;
+    margin: 0;
+  }
+}

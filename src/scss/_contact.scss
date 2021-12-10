@@ -1,0 +1,162 @@
+.contacts {
+  .contacts-wrapper {
+    background-color: #fff;
+    padding: 83px 0 97px;
+    font-size: 16px;
+    a,
+    span,
+    p,
+    h5 {
+      margin-bottom: 18px;
+    }
+  }
+  h2 {
+    margin: 0 0 35px 39px;
+  }
+  h5 {
+    max-width: 224px;
+  }
+
+  .map {
+    background: url(../img/mapa.webp);
+  }
+  .map_mob {
+    display: none;
+  }
+  a,
+  span {
+    display: block;
+  }
+  .edps-phone {
+    display: flex;
+    align-items: center;
+  }
+  .edps-phone::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/phone.svg);
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+  }
+  .edps-fax {
+    display: flex;
+    align-items: center;
+  }
+  .edps-fax::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/fax.svg);
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+  }
+  .edps-mail {
+    display: flex;
+    align-items: center;
+  }
+  .edps-mail::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/mail.svg);
+    width: 20px;
+    height: 17px;
+    margin-right: 18px;
+  }
+  .edps-loc {
+    display: flex;
+    align-items: center;
+  }
+  .edps-loc::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/location.svg);
+    width: 15px;
+    height: 18px;
+    margin-right: 23px;
+  }
+  .os-tel {
+    display: flex;
+    align-items: center;
+  }
+  .os-tel::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/mob.svg);
+    width: 11px;
+    height: 20px;
+    margin-right: 27px;
+  }
+  .os-mail {
+    display: flex;
+    align-items: center;
+  }
+  .os-mail::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/mail.svg);
+    width: 20px;
+    height: 17px;
+    margin-right: 18px;
+  }
+  .os-loc {
+    display: flex;
+    align-items: center;
+  }
+  .os-loc::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/location.svg);
+    width: 15px;
+    height: 18px;
+    margin-right: 23px;
+  }
+  .cr-tel {
+    display: flex;
+    align-items: center;
+  }
+  .cr-tel::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/phone.svg);
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+  }
+  .cr-mob {
+    display: flex;
+    align-items: center;
+  }
+  .cr-mob::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/mob.svg);
+    width: 11px;
+    height: 20px;
+    margin-right: 27px;
+  }
+  .cr-mail {
+    display: flex;
+    align-items: center;
+  }
+  .cr-mail::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/mail.svg);
+    width: 20px;
+    height: 17px;
+    margin-right: 18px;
+  }
+  .cr-loc {
+    display: flex;
+    align-items: center;
+  }
+  .cr-loc::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/location.svg);
+    width: 15px;
+    height: 18px;
+    margin-right: 23px;
+  }
+}

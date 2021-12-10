@@ -1,0 +1,267 @@
+@media (max-width: 1400px) {
+  .services {
+    .card {
+      min-height: 420px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .services {
+    .card {
+      min-height: 495px;
+    }
+  }
+  .comments {
+    .comment__card {
+      height: 250px;
+    }
+    .slick-slide {
+      padding: 0 20px;
+    }
+  }
+  .contacts {
+    .map {
+      background-image: none;
+    }
+    .map_mob {
+      display: block;
+      margin-bottom: 100px;
+      img {
+        width: 100%;
+        min-height: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    .head {
+      .menu-btn {
+        padding: 15px 0;
+      }
+      .order_btn {
+        padding: 10px 0;
+      }
+    }
+  }
+  .services {
+    .card {
+      min-height: 430px;
+    }
+  }
+
+  .house {
+    .row {
+      flex-direction: column-reverse;
+    }
+    img {
+      margin-bottom: 37px;
+    }
+  }
+  .blog {
+    .blog-card {
+      margin-bottom: 50px;
+    }
+  }
+  .comments {
+    .slick-slide {
+      padding: 0 20px;
+      .comment__card {
+        height: 230px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    .head {
+      background: rgba(0, 0, 0, 0.5);
+      .menu-btn {
+        display: none;
+      }
+      .menu-btn_mob {
+        display: block;
+      }
+      .order_btn {
+        display: none;
+      }
+    }
+
+    .offer__text {
+      margin: 30px auto 30px;
+      text-align: center;
+    }
+    .offer__btn {
+      margin: 30px auto 20px;
+    }
+    .offer__btn_order {
+      display: block;
+    }
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 34px;
+  }
+  .services {
+    padding-top: 55px;
+    .card {
+      min-height: 0;
+      padding: 40px 38px 40px;
+    }
+  }
+  .gallery {
+    .prev-slide.slick-arrow {
+      left: -10px;
+    }
+    .next-slide.slick-arrow {
+      right: 5px;
+    }
+  }
+  .comments {
+    .comments-carousel {
+      .comment__card {
+        margin: 0 auto;
+      }
+    }
+    .next-comment.slick-arrow {
+      right: -5px;
+    }
+
+    .prev-comment.slick-arrow {
+      left: -5px;
+    }
+  }
+
+  .form-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/oldie.jpg) no-repeat right/cover;
+    text-align: center;
+    .section-title,
+    p,
+    label {
+      color: #fff;
+    }
+    input,
+    textarea {
+      background: #fff;
+    }
+    .topic-wrap {
+      margin: auto;
+      input {
+        background-color: #fff;
+      }
+    }
+    .check-wrap {
+      margin: 0 auto;
+    }
+    .form-btn {
+      margin: 0 auto;
+    }
+  }
+
+  .footer {
+    text-align: center;
+    .footer__title {
+      margin: 0 auto 20px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    .offer-wrapper {
+      padding: 135px 0 32px;
+      .btn-wrapper {
+        display: none;
+      }
+    }
+  }
+  .house {
+    .house__btn-wrapper {
+      flex-direction: column;
+      .house__btn-col {
+        margin: 50px auto 30px;
+      }
+      .house__btn-trans {
+        margin: 0 auto;
+      }
+    }
+  }
+  .wolontariat {
+    .wolontariat__list li {
+      display: block;
+      margin-bottom: 26px;
+      text-align: center;
+      &::before {
+        margin: 0 auto 16px;
+        position: static;
+      }
+      &:last-child {
+        margin-bottom: 40px;
+      }
+    }
+    .wolontariat__btn {
+      margin: 50px auto 0;
+    }
+  }
+  .blog {
+    .blog-card {
+      margin-bottom: 50px;
+      min-height: 0;
+    }
+  }
+  .gallery {
+    .prev-slide.slick-arrow {
+      left: 70px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      backdrop-filter: blur(20px);
+      background: url(../img/svg/slideArLeft.svg) no-repeat center center;
+      z-index: 5;
+    }
+    .next-slide.slick-arrow {
+      right: 70px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      backdrop-filter: blur(20px);
+      background: url(../img/svg/slideArRight.svg) no-repeat center center;
+      z-index: 5;
+    }
+  }
+  .comments {
+    .comment__card {
+      height: 230px;
+    }
+    .next-comment.slick-arrow {
+      right: 0px;
+    }
+    .prev-comment.slick-arrow {
+      left: 0px;
+    }
+  }
+  .footer {
+    .copyright {
+      width: 143px;
+      margin: 20px auto 0;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .gallery {
+    .prev-slide.slick-arrow {
+      left: 30px;
+    }
+    .next-slide.slick-arrow {
+      right: 30px;
+    }
+  }
+  .comments {
+    .comment__card {
+      height: 250px;
+    }
+  }
+}

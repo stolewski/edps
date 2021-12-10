@@ -1,0 +1,44 @@
+{
+  "name": "edps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://stolewski.github.io/edps",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stolewski/edps"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "browserlist": "^1.0.1",
+    "del": "^6.0.0",
+    "gh-pages": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

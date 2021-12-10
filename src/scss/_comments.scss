@@ -1,0 +1,70 @@
+.comments {
+  padding-top: 92px;
+  h2 {
+    margin-bottom: 35px;
+  }
+
+  .comment__card {
+    position: relative;
+    text-align: center;
+    max-width: 353px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .comment__body {
+      font-size: 16px;
+    }
+    .quotes-down {
+      position: absolute;
+      background: url(../img/svg/quote1.svg);
+      width: 86px;
+      height: 65px;
+      bottom: 50px;
+      left: 0;
+      display: block;
+      opacity: 0.4;
+    }
+    .quotes-up {
+      position: absolute;
+      background: url(../img/svg/quote2.svg);
+      width: 84px;
+      height: 65px;
+      top: -25px;
+      right: 0;
+      display: block;
+      opacity: 0.4;
+    }
+  }
+  .slick-list {
+    overflow-x: clip;
+  }
+  .comment-wrapper {
+    position: relative;
+    margin-bottom: 85px;
+  }
+  .prev-comment {
+    position: absolute;
+    top: 35%;
+    left: -30px;
+    border: none;
+    background: url(../img/svg/slideArL.svg);
+    display: block;
+    width: 14px;
+    height: 25px;
+  }
+  .next-comment {
+    position: absolute;
+    top: 35%;
+    right: -15px;
+    border: none;
+    background: url(../img/svg/slideArR.svg);
+    display: block;
+    width: 14px;
+    height: 25px;
+  }
+  .slick-list {
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+.wolontariat {
+  color: #fff;
+  h2 {
+    margin-bottom: 37px;
+  }
+  .row {
+    position: relative;
+  }
+  .wolontariat__bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../img/wolontariat.webp) no-repeat center top/cover;
+    padding: 83px 0 100px;
+  }
+  .wolontariat__list li {
+    margin: 0 0 26px 35px;
+  }
+  .wolontariat__list li::before {
+    content: '';
+    display: block;
+    background: url(../img/svg/done.svg) no-repeat;
+    width: 35px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+  }
+  .wolontariat__text {
+    margin-bottom: 20px;
+  }
+}
