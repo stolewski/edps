@@ -198,7 +198,7 @@ li {
 .section-title {
   font-size: 50px;
   font-weight: 700;
-  font-family: 'Playfair display';
+  font-family: 'PlayfairDisplay-Bold';
 }
 .offer-wrapper {
   padding: 236px 0 145px;
@@ -337,7 +337,7 @@ li {
   top: 50%;
   left: -20px;
   border: none;
-  background: url(../img/svg/slideArL.svg);
+  background: url(../img/svg/slideArL.svg) no-repeat center center;
   display: block;
   width: 14px;
   height: 25px;
@@ -347,7 +347,7 @@ li {
   top: 50%;
   right: -20px;
   border: none;
-  background: url(../img/svg/slideArR.svg);
+  background: url(../img/svg/slideArR.svg) no-repeat center center;
   display: block;
   width: 14px;
   height: 25px;
