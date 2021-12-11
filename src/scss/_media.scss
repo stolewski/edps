@@ -154,7 +154,12 @@
     }
     .check-wrap {
       margin: 0 auto;
+      input {
+        width: 30px;
+        height: 30px;
+      }
     }
+
     .form-btn {
       margin: 0 auto;
     }
@@ -172,6 +177,9 @@
     text-align: center;
     .footer__title {
       margin: 0 auto 20px;
+    }
+    .privacy {
+      text-align: center;
     }
   }
 }
@@ -254,6 +262,7 @@
       left: 0px;
     }
   }
+
   .footer {
     .copyright {
       width: 143px;
@@ -274,6 +283,12 @@
   .comments {
     .comment__card {
       height: 250px;
+    }
+  }
+  .form-section {
+    .check-wrap input {
+      width: 40px;
+      height: 40px;
     }
   }
 }
