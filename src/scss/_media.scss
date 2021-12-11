@@ -197,10 +197,14 @@
     }
   }
   .wolontariat {
+    .wolontariat__list {
+      max-width: none;
+    }
     .wolontariat__list li {
       display: block;
-      margin-bottom: 26px;
+      margin: 0 auto 26px;
       text-align: center;
+      width: 230px;
       &::before {
         margin: 0 auto 16px;
         position: static;

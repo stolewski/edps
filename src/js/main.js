@@ -82,13 +82,6 @@ $(document).ready(function () {
   $('.menu__list a').on('click', function (e) {
     $('.main-menu').removeClass('active');
   });
-
-  $('.limit.items > div > a').on('click', e => {
-    e.preventDefault();
-    let id = $(e.target).attr('href'),
-      top = $(id).offset().top;
-    $('body,html').animate({ scrollTop: top }, 1500);
-  });
 });
 
 // select
@@ -178,3 +171,24 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener('click', closeAllSelect);
+
+// scroll
+
+document.querySelectorAll('a[href^="#"').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    let href = this.getAttribute('href').substring(1);
+
+    const scrollTarget = document.getElementById(href);
+
+    const topOffset = document.querySelector('.head').offsetHeight;
+    const elementPosition = scrollTarget.getBoundingClientRect().top;
+    const offsetPosition = elementPosition - topOffset;
+
+    window.scrollBy({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  });
+});
