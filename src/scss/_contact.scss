@@ -14,7 +14,7 @@
     margin: 0 0 35px 39px;
   }
   h5 {
-    max-width: 224px;
+    max-width: 250px;
   }
 
   .map {
@@ -26,6 +26,9 @@
   a,
   span {
     display: block;
+  }
+  a:hover {
+    text-decoration: underline;
   }
   .edps-phone {
     display: flex;
