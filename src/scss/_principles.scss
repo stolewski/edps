@@ -1,0 +1,72 @@
+.principles {
+  padding: 205px 0 100px;
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .docs-btn {
+    margin: 40px 0;
+    .ar-right {
+      margin-left: 10px;
+    }
+  }
+  .docs-btn_mob {
+    display: none;
+  }
+  .principles__text {
+    span {
+      font-family: 'Montserrat-bold';
+    }
+  }
+  .principles__list {
+    margin-top: 30px;
+    & li {
+      position: relative;
+      padding-left: 36px;
+      margin-bottom: 35px;
+      display: flex;
+      align-items: center;
+    }
+
+    & li::before {
+      position: absolute;
+      left: 0;
+      content: '';
+      display: block;
+      width: 19px;
+      height: 34px;
+      background: url(../img/svg/princip_point.svg);
+    }
+    & li:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .principles {
+    .docs-btn {
+      display: none;
+    }
+    .docs-btn_mob {
+      display: flex;
+    }
+    img {
+      margin: 35px 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .principles {
+    padding-top: 152px;
+    .docs-btn_mob {
+      margin: 40px auto;
+    }
+  }
+}

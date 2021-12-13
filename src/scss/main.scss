@@ -196,7 +196,8 @@ li {
     max-width: 500px;
   }
 }
-.section-title {
+.section-title,
+h1 {
   font-size: 50px;
   font-weight: 700;
   font-family: 'PlayfairDisplay-Bold';
@@ -298,6 +299,13 @@ li {
     background-color: $btn-prim;
   }
 }
+.ar-right {
+  background: url(../img/svg/ar-right.svg);
+  display: block;
+  width: 10px;
+  height: 15px;
+  margin-left: 15px;
+}
 .wolontariat__btn {
   @include btn-col();
   width: 194px;
@@ -373,3 +381,6 @@ li {
 }
 
 @import './media';
+
+@import './nasz-dom';
+@import './principles';

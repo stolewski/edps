@@ -34,14 +34,12 @@
   }
 }
 @media (max-width: 991px) {
-  .header {
-    .head {
-      .menu-btn {
-        padding: 15px 0;
-      }
-      .order_btn {
-        padding: 10px 0;
-      }
+  .head {
+    .menu-btn {
+      padding: 15px 0;
+    }
+    .order_btn {
+      padding: 10px 0;
     }
   }
   .services {
@@ -78,20 +76,19 @@
   }
 }
 @media (max-width: 767px) {
-  .header {
-    .head {
-      background: rgba(0, 0, 0, 0.5);
-      .menu-btn {
-        display: none;
-      }
-      .menu-btn_mob {
-        display: block;
-      }
-      .order_btn {
-        display: none;
-      }
+  .head {
+    background: rgba(0, 0, 0, 0.5);
+    .menu-btn {
+      display: none;
     }
-
+    .menu-btn_mob {
+      display: block;
+    }
+    .order_btn {
+      display: none;
+    }
+  }
+  .header {
     .offer__text {
       margin: 30px auto 30px;
       text-align: center;
