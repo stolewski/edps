@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  // main slider
+
   $('.hero-slider').slick({
     infinite: true,
     slidesToShow: 1,
@@ -9,6 +11,8 @@ $(document).ready(function () {
     prevArrow: $('.previous'),
     nextArrow: $('.nextus'),
   });
+
+  // gallery section slider
 
   $('.gallery-pics').slick({
     infinite: true,
@@ -35,6 +39,8 @@ $(document).ready(function () {
     ],
   });
 
+  // comments slider
+
   $('.comments-carousel').slick({
     infinite: true,
     slidesToShow: 3,
@@ -59,6 +65,8 @@ $(document).ready(function () {
     ],
   });
 
+  // single page slider
+
   $('.gal-wrap').slick({
     infinite: true,
     slidesToShow: 1,
@@ -67,13 +75,15 @@ $(document).ready(function () {
     nextArrow: $('.single-ahead'),
   });
 
+  // pop-up full-size pic
+
   $('.gallery-pics').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     // other options
   });
 
-  // Menu navigacji
+  // Nav menu
 
   $('.menu-btn').on('click', function (e) {
     e.preventDefault();
