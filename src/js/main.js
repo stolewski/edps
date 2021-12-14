@@ -59,6 +59,14 @@ $(document).ready(function () {
     ],
   });
 
+  $('.gal-wrap').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: $('.single-back'),
+    nextArrow: $('.single-ahead'),
+  });
+
   $('.gallery-pics').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
