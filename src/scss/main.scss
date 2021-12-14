@@ -389,3 +389,33 @@ h1 {
 @import './principles';
 @import './blog-page';
 @import './single-page';
+@import './centrum';
+
+.rehab-btn {
+  @include btn-col();
+  width: 244px;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #f78a3c;
+    color: #fff;
+  }
+}
+.centrum-btn {
+  @include btn-col();
+  width: 192px;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #f78a3c;
+  }
+}
+.centrum-services-btn {
+  @include btn-col();
+  width: 194px;
+  margin: 20px auto 0;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #f78a3c;
+    color: #fff;
+  }
+}

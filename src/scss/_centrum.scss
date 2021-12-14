@@ -1,0 +1,114 @@
+.header_centrum {
+  padding: 236px 0 186px;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/terapia.webp) no-repeat center top/cover;
+  .centrum-offer-text {
+    margin: 30px 0;
+    max-width: 310px;
+  }
+}
+
+.centrum_services {
+  padding-top: 98px;
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  .centrum_card {
+    border: 1px solid #b3a29a;
+    padding: 40px 38px 18px;
+    margin-bottom: 30px;
+    min-height: 575px;
+    height: auto;
+    span {
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #c39675;
+    }
+    .card__pic_kinezy::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/kinezy.svg);
+      width: 56px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_massage::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/massage.svg);
+      width: 50px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_fizyko::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/fizyko.svg);
+      width: 50px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_krio::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/krio.svg);
+      width: 44px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_wave {
+      display: flex;
+      align-items: center;
+    }
+    .card__pic_wave::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/wave.svg);
+      width: 40px;
+      height: 35px;
+      margin-left: 13px;
+    }
+    .card__pic_indiv::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/indiv.svg);
+      width: 43px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__title {
+      margin: 20px 0;
+    }
+    .card__list li {
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    & li::before {
+      position: absolute;
+      left: 0;
+      content: '';
+      display: block;
+      width: 14px;
+      height: 24px;
+      background: url(../img/svg/centrum_service_ar.svg);
+    }
+  }
+  .centrum_card_second {
+    min-height: 340px;
+  }
+}
+
+.centrum_about {
+  padding: 102px 0 100px;
+  h2 {
+    margin-bottom: 50px;
+  }
+}
