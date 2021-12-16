@@ -3,19 +3,19 @@
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/terapia.webp) no-repeat center top/cover;
-  .centrum-offer-text {
+  .centrum-offer__text {
     margin: 30px 0;
     max-width: 310px;
   }
 }
 
-.centrum_services {
+.centrum-services {
   padding-top: 98px;
   h2 {
     margin-bottom: 50px;
   }
 
-  .centrum_card {
+  .centrum-card {
     border: 1px solid #b3a29a;
     padding: 40px 38px 18px;
     margin-bottom: 30px;
@@ -101,14 +101,83 @@
       background: url(../img/svg/centrum_service_ar.svg);
     }
   }
-  .centrum_card_second {
+  .centrum-card_second {
     min-height: 340px;
   }
 }
 
-.centrum_about {
+.centrum-about {
   padding: 102px 0 100px;
   h2 {
     margin-bottom: 50px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1399px) {
+  .centrum-services {
+    .centrum-card,
+    .centrum-card_second {
+      min-height: 530px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .centrum-services {
+    .centrum-card,
+    .centrum-card_second {
+      min-height: 650px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .centrum-about {
+    h2 {
+      text-align: center;
+    }
+    .row {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    img {
+      margin-bottom: 30px;
+    }
+    .rehab-btn {
+      margin: 50px auto 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header_centrum {
+    padding: 152px 0 81px;
+    text-align: center;
+    .centrum-offer__text {
+      margin: 30px auto;
+    }
+    a {
+      margin: 0 auto;
+    }
+    .centrum-offer__title {
+      font-size: 34px;
+    }
+    .centrum__btn_order {
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
+  .secton-title {
+    font-size: 34px;
+  }
+  .centrum-services {
+    .centrum-card,
+    .centrum-card_second {
+      min-height: 0;
+    }
   }
 }

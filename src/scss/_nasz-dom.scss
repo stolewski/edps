@@ -19,10 +19,10 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .our-house {
-    padding-top: 162px;
-    .middle_row {
+    padding: 162px 0 100px;
+    .row_rev {
       flex-direction: column-reverse;
     }
     img {

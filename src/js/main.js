@@ -83,6 +83,26 @@ $(document).ready(function () {
     // other options
   });
 
+  $('.gal-wrap').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    // other options
+  });
+
+  // popup workshops
+
+  $(function () {
+    $('.osrodek__btn-trans').magnificPopup({
+      type: 'inline',
+      preloader: false,
+      modal: true,
+    });
+    $(document).on('click', '.close-popup', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
+    });
+  });
+
   // Nav menu
 
   $('.menu-btn').on('click', function (e) {

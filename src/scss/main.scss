@@ -390,6 +390,7 @@ h1 {
 @import './blog-page';
 @import './single-page';
 @import './centrum';
+@import './osrodek';
 
 .rehab-btn {
   @include btn-col();
@@ -401,7 +402,7 @@ h1 {
     color: #fff;
   }
 }
-.centrum-btn {
+.centrum__btn {
   @include btn-col();
   width: 192px;
   transition: all 0.5s ease;
@@ -409,7 +410,19 @@ h1 {
     background: #f78a3c;
   }
 }
-.centrum-services-btn {
+.centrum__btn_order {
+  @include btn-transparent();
+  width: 229px;
+  color: #fff;
+  border: 1px solid #fff;
+  display: none;
+  transition: all 0.5s ease;
+  &:hover {
+    color: #fff;
+    background-color: $btn-prim;
+  }
+}
+.centrum-services__btn {
   @include btn-col();
   width: 194px;
   margin: 20px auto 0;
@@ -417,5 +430,49 @@ h1 {
   &:hover {
     background: #f78a3c;
     color: #fff;
+  }
+}
+
+.osrodek__btn {
+  @include btn-col();
+  width: 192px;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #f78a3c;
+  }
+}
+.osrodek__btn_order {
+  @include btn-transparent();
+  width: 229px;
+  margin: 20px auto 0;
+  color: #fff;
+  border: 1px solid #fff;
+  display: none;
+  transition: all 0.5s ease;
+  &:hover {
+    color: #fff;
+    background-color: $btn-prim;
+  }
+}
+.osrodek__btn-trans {
+  @include btn-transparent();
+  width: 229px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  &:hover {
+    color: #fff;
+    background-color: $btn-prim;
+  }
+}
+.osrodek-services__btn {
+  @include btn-col();
+  width: 194px;
+  margin-right: 30px;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #f78a3c;
   }
 }

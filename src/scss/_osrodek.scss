@@ -1,0 +1,219 @@
+.header_osrodek {
+  padding: 236px 0 200px;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/szkolenia.webp) no-repeat center top/cover;
+  .osrodek-offer__text {
+    margin: 30px 0;
+    max-width: 510px;
+  }
+}
+
+.osrodek-services {
+  padding: 100px 0;
+  h2 {
+    margin-bottom: 45px;
+  }
+  .osrodek-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .osrodek-card {
+    border: 1px solid #b3a29a;
+    padding: 40px;
+    margin-bottom: 30px;
+    min-height: 338px;
+    height: auto;
+    span {
+      display: block;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #c39675;
+    }
+    .card__pic_senior::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/senior.svg);
+      width: 45px;
+      height: 50px;
+      margin-left: 13px;
+    }
+    .card__pic_nurse::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/nurse.svg);
+      width: 52px;
+      height: 52px;
+      margin-left: 13px;
+    }
+    .card__pic_terapy::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/fizio.svg);
+      width: 38px;
+      height: 49px;
+      margin-left: 13px;
+    }
+    .card__pic_var::after {
+      display: block;
+      content: '';
+      background: url(../img/svg/var.svg);
+      width: 48px;
+      height: 48px;
+      margin-left: 13px;
+    }
+
+    .card__title {
+      margin: 20px 0;
+    }
+  }
+}
+.workshops-popup {
+  position: relative;
+  padding: 50px 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+  background: #fff;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+  .close-popup {
+    background: url(../img/svg/close.svg);
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .thead {
+    color: #fff;
+    font-size: 20px;
+    background: #8e6c53;
+    padding: 35px 0;
+  }
+  .thead div:first-child {
+    padding-left: 3rem;
+  }
+  .thead div:last-child {
+    padding-right: 3rem;
+  }
+  .white {
+    background: #fff;
+  }
+  .pink {
+    background: #ddc0ab;
+  }
+  .cell {
+    padding: 27px 0;
+  }
+  .cell_title {
+    padding-left: 3rem;
+  }
+  .cell_date {
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .osrodek-services {
+    .osrodek-card {
+      min-height: 350px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .osrodek-services {
+    .osrodek-card {
+      min-height: 375px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .osrodek-services {
+    .osrodek-card {
+      min-height: 500px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header_osrodek {
+    padding: 152px 0 116px;
+    text-align: center;
+    h1 {
+      font-size: 34px;
+      max-width: none;
+      text-align: center;
+    }
+    .osrodek__btn {
+      margin: 0 auto;
+    }
+    .osrodek__btn_order {
+      display: block;
+    }
+  }
+  .section-title {
+    font-size: 34px;
+  }
+  .osrodek-services {
+    .osrodek-card {
+      min-height: auto;
+    }
+  }
+  .workshops-popup {
+    padding: 50px 10px;
+    font-family: 'Montserrat-Regular';
+    .thead {
+      text-align: center;
+      padding: 15px 0;
+
+      font-size: 17px;
+      & div {
+        padding: 0;
+        align-self: center;
+      }
+    }
+    .thead div:first-child {
+      padding-left: 0;
+    }
+    .thead div:last-child {
+      padding-right: 0;
+    }
+    .cell {
+      font-size: 14px;
+    }
+    .cell_title {
+      padding-left: 0;
+    }
+    .cell_date {
+      padding-right: 0;
+    }
+    .row div {
+      align-self: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header_osrodek {
+    h1 {
+      max-width: 270px;
+      margin: 0 auto;
+    }
+  }
+  .osrodek-btn-wrap {
+    flex-direction: column;
+    align-items: center;
+    .osrodek__btn-trans {
+      margin-bottom: 30px;
+    }
+  }
+}
