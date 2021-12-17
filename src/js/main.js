@@ -103,6 +103,18 @@ $(document).ready(function () {
     });
   });
 
+  $(function () {
+    $('.open-popup').magnificPopup({
+      type: 'inline',
+      preloader: false,
+      modal: true,
+    });
+    $(document).on('click', '.close-popup', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
+    });
+  });
+
   // Nav menu
 
   $('.menu-btn').on('click', function (e) {
