@@ -103,17 +103,25 @@ $(document).ready(function () {
     });
   });
 
-  $(function () {
-    $('.open-popup').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      modal: true,
+  if (window.location.hash === '#terminy') {
+    $.magnificPopup.open({
+      items: {
+        src: '.workshops-popup',
+      },
     });
-    $(document).on('click', '.close-popup', function (e) {
-      e.preventDefault();
-      $.magnificPopup.close();
-    });
-  });
+  }
+
+  // $(function () {
+  //   $('.open-popup').magnificPopup({
+  //     type: 'inline',
+  //     preloader: false,
+  //     modal: true,
+  //   });
+  //   $(document).on('click', '.close-popup', function (e) {
+  //     e.preventDefault();
+  //     $.magnificPopup.close();
+  //   });
+  // });
 
   // Nav menu
 

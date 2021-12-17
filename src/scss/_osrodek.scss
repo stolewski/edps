@@ -70,6 +70,7 @@
     }
   }
 }
+
 .workshops-popup {
   position: relative;
   padding: 50px 30px;
@@ -88,6 +89,10 @@
     right: 20px;
     cursor: pointer;
   }
+  .mfp-close {
+    display: none;
+  }
+
   h2 {
     margin-bottom: 50px;
   }
