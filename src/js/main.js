@@ -232,21 +232,34 @@ document.addEventListener('click', closeAllSelect);
 
 // scroll
 
-document.querySelectorAll('a[href^="#"').forEach(link => {
-  link.addEventListener('click', function (e) {
-    e.preventDefault();
+// document.querySelectorAll('a[href^="#"').forEach(link => {
+//   link.addEventListener('click', function (e) {
+//     e.preventDefault();
 
-    let href = this.getAttribute('href').substring(1);
+//     let href = this.getAttribute('href').substring(1);
 
-    const scrollTarget = document.getElementById(href);
+//     const scrollTarget = document.getElementById(href);
 
-    const topOffset = document.querySelector('.head').offsetHeight;
-    const elementPosition = scrollTarget.getBoundingClientRect().top;
-    const offsetPosition = elementPosition - topOffset;
+//     const topOffset = document.querySelector('.head').offsetHeight;
+//     const elementPosition = scrollTarget.getBoundingClientRect().top;
+//     const offsetPosition = elementPosition - topOffset;
 
-    window.scrollBy({
-      top: offsetPosition,
-      behavior: 'smooth',
-    });
-  });
+//     window.scrollBy({
+//       top: offsetPosition,
+//       behavior: 'smooth',
+//     });
+//   });
+// });
+
+$('a[href^="#"]').on('click', function (e) {
+  e.preventDefault();
+  const anchor = $(this).attr('href');
+  $('html, body')
+    .stop()
+    .animate(
+      {
+        scrollTop: $(anchor).offset().top - 120,
+      },
+      800
+    );
 });

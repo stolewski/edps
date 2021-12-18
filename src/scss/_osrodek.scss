@@ -172,6 +172,9 @@
     .osrodek-card {
       min-height: auto;
     }
+    .osrodek-services__btn {
+      margin-right: 0;
+    }
   }
   .workshops-popup {
     padding: 50px 10px;
@@ -219,6 +222,7 @@
     align-items: center;
     .osrodek__btn-trans {
       margin-bottom: 30px;
+      margin-right: 0;
     }
   }
 }
