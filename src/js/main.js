@@ -6,8 +6,8 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    //autoplay: true,
-    //autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 5000,
     prevArrow: $('.previous'),
     nextArrow: $('.nextus'),
   });
