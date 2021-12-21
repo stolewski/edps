@@ -6,10 +6,10 @@ $(document).ready(function () {
     slidesToScroll: 1,
     infinite: true,
     fade: true,
+    pauseOnFocus: false,
     cssEase: 'ease-out',
     autoplay: true,
     autoplaySpeed: 4000,
-    pauseOnFocus: false,
     prevArrow: $('.previous'),
     nextArrow: $('.nextus'),
   });
